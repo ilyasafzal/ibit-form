@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IBIT Achievement Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="practice.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to IBIT's Achievement Program</h1>
+        <form id="userForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" required>
+            <label for="achievement">Tell us about your achievement:</label>
+            <textarea id="achievement" required></textarea>
+            <button type="button" onclick="submitAchievement()">Submit</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
